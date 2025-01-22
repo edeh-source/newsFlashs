@@ -4,7 +4,6 @@ import uuid
 from ckeditor.fields import RichTextField
 from django.utils.text import slugify
 from django.utils import timezone
-import cv2
 from django.urls import reverse
 from embed_video.fields import EmbedVideoField
 from taggit.managers import TaggableManager

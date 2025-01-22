@@ -3,7 +3,7 @@ import uuid
 from django.contrib.auth.models import AbstractUser, AbstractBaseUser, BaseUserManager, PermissionsMixin
 from phonenumber_field.modelfields import PhoneNumberField
 from django.core.exceptions import ValidationError
-import cv2
+
 from PIL import Image
 from io import BytesIO
 from django.core.files.base import ContentFile
