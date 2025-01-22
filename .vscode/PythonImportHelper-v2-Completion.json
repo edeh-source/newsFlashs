@@ -1,0 +1,1422 @@
+[
+    {
+        "label": "ckeditor.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ckeditor.fields",
+        "description": "ckeditor.fields",
+        "detail": "ckeditor.fields",
+        "documentation": {}
+    },
+    {
+        "label": "RichTextFormField",
+        "importPath": "ckeditor.fields",
+        "description": "ckeditor.fields",
+        "isExtraImport": true,
+        "detail": "ckeditor.fields",
+        "documentation": {}
+    },
+    {
+        "label": "RichTextField",
+        "importPath": "ckeditor.fields",
+        "description": "ckeditor.fields",
+        "isExtraImport": true,
+        "detail": "ckeditor.fields",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "embed_video.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "embed_video.fields",
+        "description": "embed_video.fields",
+        "detail": "embed_video.fields",
+        "documentation": {}
+    },
+    {
+        "label": "EmbedVideoField",
+        "importPath": "embed_video.fields",
+        "description": "embed_video.fields",
+        "isExtraImport": true,
+        "detail": "embed_video.fields",
+        "documentation": {}
+    },
+    {
+        "label": "taggit.managers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "taggit.managers",
+        "description": "taggit.managers",
+        "detail": "taggit.managers",
+        "documentation": {}
+    },
+    {
+        "label": "TaggableManager",
+        "importPath": "taggit.managers",
+        "description": "taggit.managers",
+        "isExtraImport": true,
+        "detail": "taggit.managers",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "CKEditorWidget",
+        "importPath": "ckeditor.widgets",
+        "description": "ckeditor.widgets",
+        "isExtraImport": true,
+        "detail": "ckeditor.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "QuerySet",
+        "importPath": "django.db.models.query",
+        "description": "django.db.models.query",
+        "isExtraImport": true,
+        "detail": "django.db.models.query",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "CommentForm",
+        "importPath": "news.forms",
+        "description": "news.forms",
+        "isExtraImport": true,
+        "detail": "news.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyForm",
+        "importPath": "news.forms",
+        "description": "news.forms",
+        "isExtraImport": true,
+        "detail": "news.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic.list",
+        "description": "django.views.generic.list",
+        "isExtraImport": true,
+        "detail": "django.views.generic.list",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "SearchVector",
+        "importPath": "django.contrib.postgres.search",
+        "description": "django.contrib.postgres.search",
+        "isExtraImport": true,
+        "detail": "django.contrib.postgres.search",
+        "documentation": {}
+    },
+    {
+        "label": "SearchQuery",
+        "importPath": "django.contrib.postgres.search",
+        "description": "django.contrib.postgres.search",
+        "isExtraImport": true,
+        "detail": "django.contrib.postgres.search",
+        "documentation": {}
+    },
+    {
+        "label": "SearchVector",
+        "importPath": "django.contrib.postgres.search",
+        "description": "django.contrib.postgres.search",
+        "isExtraImport": true,
+        "detail": "django.contrib.postgres.search",
+        "documentation": {}
+    },
+    {
+        "label": "SearchHeadline",
+        "importPath": "django.contrib.postgres.search",
+        "description": "django.contrib.postgres.search",
+        "isExtraImport": true,
+        "detail": "django.contrib.postgres.search",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRank",
+        "importPath": "django.contrib.postgres.search",
+        "description": "django.contrib.postgres.search",
+        "isExtraImport": true,
+        "detail": "django.contrib.postgres.search",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "taggit.models",
+        "description": "taggit.models",
+        "isExtraImport": true,
+        "detail": "taggit.models",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "phonenumber_field.modelfields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "phonenumber_field.modelfields",
+        "description": "phonenumber_field.modelfields",
+        "detail": "phonenumber_field.modelfields",
+        "documentation": {}
+    },
+    {
+        "label": "PhoneNumberField",
+        "importPath": "phonenumber_field.modelfields",
+        "description": "phonenumber_field.modelfields",
+        "isExtraImport": true,
+        "detail": "phonenumber_field.modelfields",
+        "documentation": {}
+    },
+    {
+        "label": "ModelBackend",
+        "importPath": "django.contrib.auth.backends",
+        "description": "django.contrib.auth.backends",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.backends",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0001_initial",
+        "description": "news.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False, unique=True)),",
+        "detail": "news.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0002_alter_category_options_alter_post_slug",
+        "description": "news.migrations.0002_alter_category_options_alter_post_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('news', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='category',\n            options={'ordering': ['-created'], 'verbose_name': 'category', 'verbose_name_plural': 'categories'},\n        ),\n        migrations.AlterField(",
+        "detail": "news.migrations.0002_alter_category_options_alter_post_slug",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0003_post_tags_post_videos",
+        "description": "news.migrations.0003_post_tags_post_videos",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('news', '0002_alter_category_options_alter_post_slug'),\n        ('taggit', '0006_rename_taggeditem_content_type_object_id_taggit_tagg_content_8fc721_idx'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='tags',\n            field=taggit.managers.TaggableManager(blank=True, help_text='A comma-separated list of tags.', through='taggit.TaggedItem', to='taggit.Tag', verbose_name='Tags'),",
+        "detail": "news.migrations.0003_post_tags_post_videos",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0004_comment_reply_comment_news_commen_created_cac50c_idx",
+        "description": "news.migrations.0004_comment_reply_comment_news_commen_created_cac50c_idx",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('news', '0003_post_tags_post_videos'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Comment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "news.migrations.0004_comment_reply_comment_news_commen_created_cac50c_idx",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryAdmin",
+        "kind": 6,
+        "importPath": "news.admin",
+        "description": "news.admin",
+        "peekOfCode": "class CategoryAdmin(admin.ModelAdmin):\n    list_display = ['name', 'slug', 'created', 'updated']\n    list_filter = ['name', 'slug', 'created', 'updated']\n@admin.register(Author)\nclass AuthorAdmin(admin.ModelAdmin):\n    list_display = ['user', 'active', 'created', 'updated', 'whatsapp_link', 'facebook_link']    \n    list_filter = ['user', 'active', 'created', 'updated', 'whatsapp_link', 'facebook_link']    \n@admin.register(Post)\nclass PostAdmin(admin.ModelAdmin):\n    list_display =  ['category','name', 'slug', 'author', 'active','views','publish','active', 'created']  ",
+        "detail": "news.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorAdmin",
+        "kind": 6,
+        "importPath": "news.admin",
+        "description": "news.admin",
+        "peekOfCode": "class AuthorAdmin(admin.ModelAdmin):\n    list_display = ['user', 'active', 'created', 'updated', 'whatsapp_link', 'facebook_link']    \n    list_filter = ['user', 'active', 'created', 'updated', 'whatsapp_link', 'facebook_link']    \n@admin.register(Post)\nclass PostAdmin(admin.ModelAdmin):\n    list_display =  ['category','name', 'slug', 'author', 'active','views','publish','active', 'created']  \n    list_filter =  ['category', 'name', 'slug', 'author', 'active', 'views','publish','active', 'created'] \n    list_per_page = 10",
+        "detail": "news.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PostAdmin",
+        "kind": 6,
+        "importPath": "news.admin",
+        "description": "news.admin",
+        "peekOfCode": "class PostAdmin(admin.ModelAdmin):\n    list_display =  ['category','name', 'slug', 'author', 'active','views','publish','active', 'created']  \n    list_filter =  ['category', 'name', 'slug', 'author', 'active', 'views','publish','active', 'created'] \n    list_per_page = 10",
+        "detail": "news.admin",
+        "documentation": {}
+    },
+    {
+        "label": "NewsConfig",
+        "kind": 6,
+        "importPath": "news.apps",
+        "description": "news.apps",
+        "peekOfCode": "class NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'",
+        "detail": "news.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CommentForm",
+        "kind": 6,
+        "importPath": "news.forms",
+        "description": "news.forms",
+        "peekOfCode": "class CommentForm(forms.ModelForm):\n    class Meta:\n        model = Comment\n        fields = ['email', 'body']\nclass ReplyForm(forms.ModelForm):\n    class Meta:\n        model = Reply\n        fields = ['body']        \nclass PostForm(forms.ModelForm):\n    class Meta:",
+        "detail": "news.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyForm",
+        "kind": 6,
+        "importPath": "news.forms",
+        "description": "news.forms",
+        "peekOfCode": "class ReplyForm(forms.ModelForm):\n    class Meta:\n        model = Reply\n        fields = ['body']        \nclass PostForm(forms.ModelForm):\n    class Meta:\n        model = Post       \n        fields = ['category', 'name', 'image', 'text', 'tags', 'videos']\n        widgets =  {\n            'text': CKEditorWidget(),",
+        "detail": "news.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PostForm",
+        "kind": 6,
+        "importPath": "news.forms",
+        "description": "news.forms",
+        "peekOfCode": "class PostForm(forms.ModelForm):\n    class Meta:\n        model = Post       \n        fields = ['category', 'name', 'image', 'text', 'tags', 'videos']\n        widgets =  {\n            'text': CKEditorWidget(),\n        }",
+        "detail": "news.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Category(models.Model):\n    id = models.UUIDField(unique=True, primary_key=True, default=uuid.uuid4, editable=False, null=False, blank=False)\n    name = models.CharField(max_length=256, unique=True)\n    slug = models.SlugField(max_length=256, db_index=True, unique=True, blank=True, null=True)\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.name\n    def get_absolute_url(self):\n        return reverse(\"categories_post\", args=[self.slug])",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Author(models.Model):\n    id = models.UUIDField(unique=True, primary_key=True, default=uuid.uuid4, editable=False, null=False, blank=False)\n    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='author')\n    about =  RichTextField(blank=True)\n    facebook_link = models.URLField(blank=True)\n    whatsapp_link = models.URLField(blank=True)\n    reddit_link = models.URLField(blank=True)\n    instagram_link = models.URLField(blank=True)\n    active = models.BooleanField(default=True)\n    created = models.DateTimeField(auto_now_add=True)",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Post(models.Model):\n    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='posts')\n    name = models.CharField(max_length=256, db_index=True, unique=True)\n    slug = models.SlugField(max_length=256, db_index=True, unique_for_date='publish', null=True, blank=True)\n    author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='posts')\n    publish = models.DateTimeField(default=timezone.now)\n    image = models.ImageField(upload_to='post_images', blank=True)\n    image_description = models.CharField(max_length=100, blank=True)\n    text = RichTextField()\n    views = models.PositiveIntegerField(default=0)",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Comment(models.Model):\n    post = models.name = models.ForeignKey('Post', related_name='comments', on_delete=models.CASCADE)\n    user = models.ForeignKey(to=User, related_name='comments', on_delete=models.CASCADE, default='ba94a1b9-8dce-4e5c-a0df-be383b13a070')\n    name = models.CharField(max_length=80, blank=True, null=True)\n    email = models.EmailField()\n    body = models.TextField()\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    active = models.BooleanField(default=True)\n    class Meta:",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reply",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Reply(models.Model):\n    comment = models.ForeignKey('Comment', on_delete=models.CASCADE, related_name='replies')\n    user = models.ForeignKey(to='users.User', on_delete=models.CASCADE, related_name='replies')\n    body = models.TextField()\n    active = models.BooleanField(default=True)\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    active = models.BooleanField(default=True)\n    class Meta:\n        ordering = ['-created']",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "User = get_user_model()\nclass Category(models.Model):\n    id = models.UUIDField(unique=True, primary_key=True, default=uuid.uuid4, editable=False, null=False, blank=False)\n    name = models.CharField(max_length=256, unique=True)\n    slug = models.SlugField(max_length=256, db_index=True, unique=True, blank=True, null=True)\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.name\n    def get_absolute_url(self):",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "news.urls",
+        "description": "news.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.PostHomePage.as_view(), name='home'),\n    path('detail/<slug:slug>/<int:year>/<int:month>/<int:day>/', views.get_post_details, name='post_details'),\n    path('category/<slug:slug>/', views.post_categories, name='categories_post'),\n    path('authors/<str:username>/', views.authors_post, name='author_post'),\n    path('search/', views.post_search, name='post_search'),\n    path('tags/<slug:slug>/', views.Tag_Detail.as_view(), name='tag_details'),\n    path('comment_reply/<int:id>/', views.reply_comment, name='comment_reply'),\n]",
+        "detail": "news.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PostHomePage",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class PostHomePage(ListView):\n    model = Post\n    context_object_name = 'posts'\n    template_name = 'post/index.html'\n    def get_queryset(self):\n        return Post.objects.filter(category__name=\"Trending News\", active=True).order_by('-publish')[:5]\ndef get_culture_category(request):\n    culture = Post.objects.filter(category__name=\"Culture\", active=True).order_by('-publish')[:1]\n    return {'culture': culture}    \ndef get_all_posts(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "Tag_Detail",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class Tag_Detail(ListView):\n    model = Post\n    template_name = 'post/tag.html'\n    context_object_name = 'tags'\n    paginate_by = 1\n    def get_queryset(self):\n        tags = get_object_or_404(Tag, slug=self.kwargs['slug'])\n        post_tags = Post.objects.filter(tags=tags)\n        return post_tags\ndef reply_comment(request, id):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_culture_category",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_culture_category(request):\n    culture = Post.objects.filter(category__name=\"Culture\", active=True).order_by('-publish')[:1]\n    return {'culture': culture}    \ndef get_all_posts(request):\n    all_post = Post.objects.filter(active=True).order_by('-publish')[:9]\n    return {'all_post': all_post}\ndef get_one_trending_news(request):\n    one_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish').first()\n    return {'one_trend_news': one_trend_news}     \ndef get_all_trending_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_posts",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_posts(request):\n    all_post = Post.objects.filter(active=True).order_by('-publish')[:9]\n    return {'all_post': all_post}\ndef get_one_trending_news(request):\n    one_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish').first()\n    return {'one_trend_news': one_trend_news}     \ndef get_all_trending_news(request):\n    all_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish')[:6]\n    return {'all_trend_news': all_trend_news}\ndef get_one_buisness_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_trending_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_trending_news(request):\n    one_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish').first()\n    return {'one_trend_news': one_trend_news}     \ndef get_all_trending_news(request):\n    all_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish')[:6]\n    return {'all_trend_news': all_trend_news}\ndef get_one_buisness_news(request):\n    one_buisness_news = Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish').first()\n    return {'one_buisness_news': one_buisness_news}\ndef get_all_buisness_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_trending_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_trending_news(request):\n    all_trend_news = Post.objects.filter(category__name='Trending News', active=True).order_by('-publish')[:6]\n    return {'all_trend_news': all_trend_news}\ndef get_one_buisness_news(request):\n    one_buisness_news = Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish').first()\n    return {'one_buisness_news': one_buisness_news}\ndef get_all_buisness_news(request):\n    all_buisness_news =  Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish')[:6]\n    return {'all_buisness_news': all_buisness_news}\ndef get_one_sports_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_buisness_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_buisness_news(request):\n    one_buisness_news = Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish').first()\n    return {'one_buisness_news': one_buisness_news}\ndef get_all_buisness_news(request):\n    all_buisness_news =  Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish')[:6]\n    return {'all_buisness_news': all_buisness_news}\ndef get_one_sports_news(request):\n    one_sports_news = Post.objects.filter(category__name='Sports', active=True).order_by('-publish').first()\n    return {'one_sports_news': one_sports_news}\ndef get_all_sports_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_buisness_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_buisness_news(request):\n    all_buisness_news =  Post.objects.filter(category__name='Business and Finance', active=True).order_by('-publish')[:6]\n    return {'all_buisness_news': all_buisness_news}\ndef get_one_sports_news(request):\n    one_sports_news = Post.objects.filter(category__name='Sports', active=True).order_by('-publish').first()\n    return {'one_sports_news': one_sports_news}\ndef get_all_sports_news(request):\n    all_sports_news =  Post.objects.filter(category__name='Sports', active=True).order_by('-publish')[:6]\n    return {'all_sports_news': all_sports_news}  \ndef get_one_international_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_sports_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_sports_news(request):\n    one_sports_news = Post.objects.filter(category__name='Sports', active=True).order_by('-publish').first()\n    return {'one_sports_news': one_sports_news}\ndef get_all_sports_news(request):\n    all_sports_news =  Post.objects.filter(category__name='Sports', active=True).order_by('-publish')[:6]\n    return {'all_sports_news': all_sports_news}  \ndef get_one_international_news(request):\n    one_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish').first()\n    return {'one_international_news': one_international_news}\ndef get_all_international_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_sports_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_sports_news(request):\n    all_sports_news =  Post.objects.filter(category__name='Sports', active=True).order_by('-publish')[:6]\n    return {'all_sports_news': all_sports_news}  \ndef get_one_international_news(request):\n    one_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish').first()\n    return {'one_international_news': one_international_news}\ndef get_all_international_news(request):\n    all_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish')[:6]\n    return {'all_international_news': all_international_news}\ndef get_one_technology_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_international_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_international_news(request):\n    one_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish').first()\n    return {'one_international_news': one_international_news}\ndef get_all_international_news(request):\n    all_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish')[:6]\n    return {'all_international_news': all_international_news}\ndef get_one_technology_news(request):\n    one_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish').first()\n    return {'one_technology_news': one_technology_news}\ndef get_all_technology_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_international_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_international_news(request):\n    all_international_news = Post.objects.filter(category__name='Foreign News', active=True).order_by('-publish')[:6]\n    return {'all_international_news': all_international_news}\ndef get_one_technology_news(request):\n    one_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish').first()\n    return {'one_technology_news': one_technology_news}\ndef get_all_technology_news(request):\n    all_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish')[:6]\n    return {'all_technology_news': all_technology_news}\ndef get_one_health_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_technology_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_technology_news(request):\n    one_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish').first()\n    return {'one_technology_news': one_technology_news}\ndef get_all_technology_news(request):\n    all_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish')[:6]\n    return {'all_technology_news': all_technology_news}\ndef get_one_health_news(request):\n    one_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish').first()\n    return {'one_health_news': one_health_news}\ndef get_all_health_news(request):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_technology_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_technology_news(request):\n    all_technology_news = Post.objects.filter(category__name='Technology', active=True).order_by('-publish')[:6]\n    return {'all_technology_news': all_technology_news}\ndef get_one_health_news(request):\n    one_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish').first()\n    return {'one_health_news': one_health_news}\ndef get_all_health_news(request):\n    all_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish')[:6]\n    return {'all_health_news': all_health_news}\ndef get_post_details(request, slug, year, month, day):",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_one_health_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_one_health_news(request):\n    one_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish').first()\n    return {'one_health_news': one_health_news}\ndef get_all_health_news(request):\n    all_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish')[:6]\n    return {'all_health_news': all_health_news}\ndef get_post_details(request, slug, year, month, day):\n    post = get_object_or_404(Post, slug=slug, publish__year=year, publish__month=month, publish__day=day, active=True)\n    request.session['post_title'] = post.name\n    post.views += 1",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_health_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_health_news(request):\n    all_health_news = Post.objects.filter(category__name='Health', active=True).order_by('-publish')[:6]\n    return {'all_health_news': all_health_news}\ndef get_post_details(request, slug, year, month, day):\n    post = get_object_or_404(Post, slug=slug, publish__year=year, publish__month=month, publish__day=day, active=True)\n    request.session['post_title'] = post.name\n    post.views += 1\n    post.save()\n    related_tags = post.tags.all()\n    comments = post.comments.filter(active=True)",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_post_details",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_post_details(request, slug, year, month, day):\n    post = get_object_or_404(Post, slug=slug, publish__year=year, publish__month=month, publish__day=day, active=True)\n    request.session['post_title'] = post.name\n    post.views += 1\n    post.save()\n    related_tags = post.tags.all()\n    comments = post.comments.filter(active=True)\n    user = request.user\n    similiar_post = None\n    comment = None",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_categories",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_all_categories(request):\n    category = Category.objects.all()\n    return {'category': category}\ndef post_categories(request, slug):\n    \"\"\"\n    A View That gets a category slug and filter the database to get all posts from the category\n    \"\"\"\n    category_list = get_object_or_404(Category, slug=slug)\n    post_category_list = Post.objects.filter(category=category_list, active=True).order_by('-publish')\n    paginator = Paginator(post_category_list, 5)",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_categories",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def post_categories(request, slug):\n    \"\"\"\n    A View That gets a category slug and filter the database to get all posts from the category\n    \"\"\"\n    category_list = get_object_or_404(Category, slug=slug)\n    post_category_list = Post.objects.filter(category=category_list, active=True).order_by('-publish')\n    paginator = Paginator(post_category_list, 5)\n    page_number = request.GET.get('page', 1)\n    page_obj = paginator.get_page(page_number)\n    return render(request, 'post/category.html', {'page_obj': page_obj, 'category_list': category_list})",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "authors_post",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def authors_post(request, username):\n    author = get_object_or_404(Author, user__username=username)\n    post_list = Post.objects.filter(author=author, active=True).order_by('-publish')\n    paginator = Paginator(post_list, 5)\n    page_number = request.GET.get('page', 1)\n    page_obj = paginator.get_page(page_number)\n    return render(request, 'post/authors.html', {'page_obj': page_obj, 'author': author })    \ndef get_recent_post(request):\n    recent_post = Post.objects.filter(active=True).order_by('-publish')[:7]\n    return {'recent_post': recent_post}",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_recent_post",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_recent_post(request):\n    recent_post = Post.objects.filter(active=True).order_by('-publish')[:7]\n    return {'recent_post': recent_post}\ndef post_search(request):\n    query = request.GET.get(\"query\", \"\")\n    if not query:\n        # Handle the case where there is no query\n        return render(request, 'post/search-result.html', {'page_obj': [], 'query': query })\n    search_vector = SearchVector(\"name\", \"text\")\n    search_query = SearchQuery(query)",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_search",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def post_search(request):\n    query = request.GET.get(\"query\", \"\")\n    if not query:\n        # Handle the case where there is no query\n        return render(request, 'post/search-result.html', {'page_obj': [], 'query': query })\n    search_vector = SearchVector(\"name\", \"text\")\n    search_query = SearchQuery(query)\n    search_headline = SearchHeadline(\"text\", search_query)\n    post_list = Post.objects.annotate(\n            search=search_vector,",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "reply_comment",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def reply_comment(request, id):\n    comment = get_object_or_404(Comment, id=id)\n    reply = None\n    if request.method == 'POST':\n        form = ReplyForm(request.POST)\n        if form.is_valid():\n           reply = form.save(commit=False)\n           reply.user = request.user\n           reply.comment = comment\n           reply.save()",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "most_popular_post",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def most_popular_post(request):\n    posts = Post.objects.order_by('-views')[:5]\n    most_popular_posts = list(posts)\n    return {'most_popular_posts': most_popular_posts}\ndef get_latest_posts(request):\n    all_latest_post = Post.objects.filter(active=True).order_by('-publish')[:5]\n    return {'all_latest_post': all_latest_post}       \ndef trending_news(request):\n    trend_category = Category.objects.get(name='Trending News')\n    post_trend_news = Post.objects.filter(category=trend_category, active=True).order_by('-publish')[:5]",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_latest_posts",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def get_latest_posts(request):\n    all_latest_post = Post.objects.filter(active=True).order_by('-publish')[:5]\n    return {'all_latest_post': all_latest_post}       \ndef trending_news(request):\n    trend_category = Category.objects.get(name='Trending News')\n    post_trend_news = Post.objects.filter(category=trend_category, active=True).order_by('-publish')[:5]\n    return {'post_trend_news': post_trend_news, 'trend_category': trend_category }",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "trending_news",
+        "kind": 2,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "def trending_news(request):\n    trend_category = Category.objects.get(name='Trending News')\n    post_trend_news = Post.objects.filter(category=trend_category, active=True).order_by('-publish')[:5]\n    return {'post_trend_news': post_trend_news, 'trend_category': trend_category }",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "newsalert_deploy.asgi",
+        "description": "newsalert_deploy.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "newsalert_deploy.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-are+)t6js($!3ldvs$757vtbzxi^fpi0i3_!4(*kp1b-)m(%cp'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-are+)t6js($!3ldvs$757vtbzxi^fpi0i3_!4(*kp1b-)m(%cp'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'users.apps.UsersConfig',\n    'news.apps.NewsConfig',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'newsalert_deploy.urls'",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "ROOT_URLCONF = 'newsalert_deploy.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'newsalert_deploy.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'father',\n        'USER': 'postgres',\n        'HOST': '127.0.0.1',\n        'PORT': '5432',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'father',\n        'USER': 'postgres',\n        'HOST': '127.0.0.1',\n        'PORT': '5432',\n        'PASSWORD': '1232478847',\n    }\n}",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'users.authentication.EmailOrPhoneNumber',  # Replace with the actual path to your backend\n    'django.contrib.auth.backends.ModelBackend',  # Keep the default backend\n]\nAUTH_USER_MODEL = 'users.User'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.User'\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Africa/Lagos'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Lagos'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',\n        # 'skin': 'office2013',",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',\n        # 'skin': 'office2013',\n        'toolbar_Basic': [",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',\n        # 'skin': 'office2013',\n        'toolbar_Basic': [\n            ['Source', '-', 'Bold', 'Italic']",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',\n        # 'skin': 'office2013',\n        'toolbar_Basic': [\n            ['Source', '-', 'Bold', 'Italic']\n        ],\n        'toolbar_YourCustomToolbarConfig': [\n            {'name': 'document', 'items': ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates']},",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CKEDITOR_CONFIGS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "CKEDITOR_CONFIGS = {\n    'default': {\n        'skin': 'moono',\n        # 'skin': 'office2013',\n        'toolbar_Basic': [\n            ['Source', '-', 'Bold', 'Italic']\n        ],\n        'toolbar_YourCustomToolbarConfig': [\n            {'name': 'document', 'items': ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates']},\n            {'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_ALLOWED_TEMPLATE_PACKS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "CRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap4\"\nCRISPY_TEMPLATE_PACK = \"bootstrap4\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-info',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_TEMPLATE_PACK",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"bootstrap4\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-info',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_TAGS",
+        "kind": 5,
+        "importPath": "newsalert_deploy.settings",
+        "description": "newsalert_deploy.settings",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.DEBUG: 'alert-info',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}",
+        "detail": "newsalert_deploy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "newsalert_deploy.urls",
+        "description": "newsalert_deploy.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('news.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "newsalert_deploy.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "newsalert_deploy.wsgi",
+        "description": "newsalert_deploy.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "newsalert_deploy.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "NewsletterConfig",
+        "kind": 6,
+        "importPath": "newsletter.apps",
+        "description": "newsletter.apps",
+        "peekOfCode": "class NewsletterConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'newsletter'",
+        "detail": "newsletter.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users.migrations.0001_initial",
+        "description": "users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "users.admin",
+        "description": "users.admin",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n    list_display = ['username', 'email', 'first_name', 'last_name', 'phone_number', 'is_active', 'is_staff', 'is_superuser']\n    list_filter = ['username', 'email', 'first_name', 'last_name', 'phone_number']",
+        "detail": "users.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "EmailOrPhoneNumber",
+        "kind": 6,
+        "importPath": "users.authentication",
+        "description": "users.authentication",
+        "peekOfCode": "class EmailOrPhoneNumber(ModelBackend):\n    \"\"\"\n    A blueprint to authenticate a user using email or phone_number\n    \"\"\"\n    def authenticate(self, request, identifier=None, password=None, **kwargs):\n        \"\"\"\n        A method to authenticate a user with email or phone number\n        \"\"\"\n        try:\n            user = User.objects.get(email=identifier)",
+        "detail": "users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "users.authentication",
+        "description": "users.authentication",
+        "peekOfCode": "User = get_user_model()\nclass EmailOrPhoneNumber(ModelBackend):\n    \"\"\"\n    A blueprint to authenticate a user using email or phone_number\n    \"\"\"\n    def authenticate(self, request, identifier=None, password=None, **kwargs):\n        \"\"\"\n        A method to authenticate a user with email or phone number\n        \"\"\"\n        try:",
+        "detail": "users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    \"\"\"\n    A blueprint to create a user\n    \"\"\"\n    def create_user(self, username, email, phone_number, password, **kwargs):\n        \"\"\"\n        A method to create a user\n        \"\"\"\n        if not username:\n            raise ValidationError(\"Username Field Must Be Provided\")",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "users.models",
+        "description": "users.models",
+        "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    id = models.UUIDField(unique=True, primary_key=True, editable=False, default=uuid.uuid4)\n    username = models.CharField(max_length=256, db_index=True, unique=True)\n    first_name = models.CharField(max_length=256, db_index=True, blank=True)\n    last_name = models.CharField(max_length=256, db_index=True, blank=True)\n    phone_number = PhoneNumberField(unique=True, blank=False, null=False)\n    email = models.EmailField(unique=True, max_length=100, db_index=True)\n    image = models.ImageField(upload_to='users_images', blank=True)\n    about = models.TextField(null=True, blank=True)\n    is_active = models.BooleanField(default=True)",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'newsalert_deploy.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

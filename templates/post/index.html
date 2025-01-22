@@ -1,0 +1,473 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+  
+
+  
+
+  <main id="main">
+
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+          <div class="row">
+              <div class="col-12">
+                  <div class="swiper sliderFeaturedPosts">
+                      <div class="swiper-wrapper">
+                          {% for post in posts %}
+                          <div class="swiper-slide">
+                              <a href="{{ post.get_absolute_url }}" class="img-bg d-flex align-items-end" style="background-image: url({{post.image.url }});">
+                                  <div class="img-bg-inner">
+                                      <h2>{{ post.name }}</h2>
+                                      <p>{{ post.text|truncatewords:20|striptags }}</p>
+                                  </div>
+                              </a>
+                          </div>
+                          {% endfor %}
+
+
+
+
+
+
+                      </div>
+                      <div class="custom-swiper-button-next">
+                          <span class="bi-chevron-right"></span>
+                      </div>
+                      <div class="custom-swiper-button-prev">
+                          <span class="bi-chevron-left"></span>
+                      </div>
+
+                      <div class="swiper-pagination"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+   <!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          {% for cultures in culture %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post.html"><img src="{{ cultures.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ cultures.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ cultures.created|timesince }} AGO</span></div>
+              <h2><a href="{{ cultures.get_absolute_url }}">{{ cultures.name }}</a></h2>
+              <p class="mb-4 d-block">{{ cultures.text|safe|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ cultures.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ cultures.author }}</h3>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in all_post %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section> <!-- End Post Grid Section -->
+
+    <!-- ======= Culture Category Section ======= -->
+    <!-- ======= Trending News Category Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_trend_news.category }}</h2>
+          <div><a href="category.html" class="more">See All {{ one_trend_news.category }}</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_trend_news %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post.html"><img src="{{ one_trend_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_trend_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_trend_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_trend_news.get_absolute_url }}">{{ one_trend_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_trend_news.text|striptags|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_trend_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_trend_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in  all_trend_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_buisness_news.category }}</h2>
+          <div><a href="category.html" class="more">See All {{ one_buisness_news.category }}</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_buisness_news %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="{{ one_buisness_news.get_absolute_url }}"><img src="{{ one_buisness_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_buisness_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_buisness_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_buisness_news.get_absolute_url }}">{{ one_buisness_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_buisness_news.text|striptags|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_trend_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_buisness_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in  all_buisness_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_sports_news.category.name }}</h2>
+          <div><a href="category.html" class="more">See All {{ one_sports_news.category}} News</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_sports_news %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="{{ one_sports_news.get_absolute_url }}"><img src="{{ one_sports_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_sports_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_sports_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_sports_news.get_absolute_url}}">{{ one_sports_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_sports_news.text|striptags|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_sports_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_sports_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in  all_sports_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_international_news.category.name }}</h2>
+          <div><a href="category.html" class="more">See All {{ one_international_news.category.name}}</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_international_news %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="{{ one_international_news.get_absolute_url }}"><img src="{{ one_international_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_international_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_international_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_international_news.get_absolute_url }}">{{ one_international_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_international_news.text|striptags|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_international_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_international_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in  all_international_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_technology_news.category.name }}</h2>
+          <div><a href="category.html" class="more">See All {{ one_technology_news.category.name }}</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_technology_news  %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="{{ one_technology_news.get_absolute_url }}"><img src="{{ one_technology_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_technology_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_technology_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_technology_news.get_absolute_url}}">{{ one_technology_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_technology_news.text|safe|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_technology_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_technology_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in all_technology_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>{{ one_health_news.category.name }}</h2>
+          <div><a href="{{ one_health_news.category.get_categories_detail_url }}" class="more">See All {{ one_health_news.category.name }}</a></div>
+        </div>
+        <div class="row g-5">
+          {% if one_health_news %}
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="{{ one_health_news.get_absolute_url }}"><img src="{{ one_health_news.image.url }}" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">{{ one_trend_news.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ one_health_news.created|timesince }} AGO</span></div>
+              <h2><a href="{{ one_health_news.get_absolute_url }}">{{ one_health_news.name }}</a></h2>
+              <p class="mb-4 d-block">{{ one_health_news.text|safe|truncatewords:60 }}</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="{{ one_health_news.author.user.get_user_image }}" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">{{ one_health_news.author }}</h3>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+          {% endif %}
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              {% for posts in  all_health_news %}
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="{{ posts.get_absolute_url }}"><img src="{{ posts.image.url }}" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">{{ posts.category.name }}</span> <span class="mx-1">&bullet;</span> <span>{{ posts.created|timesince }} AGO</span></div>
+                  <h2><a href="{{ posts.get_absolute_url }}">{{ posts.name }}</a></h2>
+                </div>
+                
+                
+                
+              </div>
+              {% endfor %}
+              
+                
+                
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                
+                
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+   
+        
+
+        
+              
+                
+
+                
+    <!-- End Culture Category Section -->
+
+    <!-- End Business Category Section -->
+
+   <!-- End Lifestyle Category Section -->
+
+  </main><!-- End #main -->
+
+  {% endblock content %}
+  
