@@ -4,6 +4,9 @@ from django.contrib.auth.models import AbstractUser, AbstractBaseUser, BaseUserM
 from phonenumber_field.modelfields import PhoneNumberField
 from django.core.exceptions import ValidationError
 import cv2
+from PIL import Image
+from io import BytesIO
+from django.core.files.base import ContentFile
 from django.conf import settings
 
 
@@ -81,16 +84,18 @@ class User(AbstractBaseUser, PermissionsMixin):
     
     
     def save(self, *args, **kwargs):
-        super().save(*args, **kwargs)
         if self.image:
-            image = cv2.imread(self.image.path)
-            height, width = (100, 100)
-            size = (height, width)
-            image = cv2.resize(image, size, interpolation=cv2.INTER_AREA)
-            user_image = cv2.imwrite(self.image.path, image)
-            return user_image
-        else:
-            pass
+            img = Image.open(self.image)
+            output = BytesIO()
+            width, height = 100, 100
+            img = img.resize((width, height))
+            img_format = img.format  # Get the original image format
+            if not img_format:  # If format is None, default to JPEG
+                img_format = 'JPEG'
+                img.save(output, format=img_format)
+                output.seek(0)
+                self.image = ContentFile(output.getvalue(), name=self.image.name)
+        super().save(*args, **kwargs)
         
      
     

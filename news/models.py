@@ -9,7 +9,7 @@ from django.urls import reverse
 from embed_video.fields import EmbedVideoField
 from taggit.managers import TaggableManager
 User = get_user_model()
-
+from django_resized import ResizedImageField
 
 
 class Category(models.Model):
@@ -68,7 +68,7 @@ class Post(models.Model):
     slug = models.SlugField(max_length=256, db_index=True, unique_for_date='publish', null=True, blank=True)
     author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='posts')
     publish = models.DateTimeField(default=timezone.now)
-    image = models.ImageField(upload_to='post_images', blank=True)
+    image =  ResizedImageField(size=[900, 630], crop=['middle', 'center'], quality=85, upload_to='post_images/')
     image_description = models.CharField(max_length=100, blank=True)
     text = RichTextField()
     views = models.PositiveIntegerField(default=0)
@@ -89,20 +89,7 @@ class Post(models.Model):
     
     
     
-    def save(self, *args, **kwargs):
-        if not self.slug:
-            self.slug = slugify(self.name)
-        super().save(*args, **kwargs)
-        
-        if self.image:
-            image = cv2.imread(self.image.path)
-            height, width = (900, 500)
-            size = (height, width)
-            image = cv2.resize(image, size, interpolation=cv2.INTER_AREA)
-            post_image = cv2.imwrite(self.image.path, image)
-            return post_image
-        else:
-            pass
+    
     
       
       
