@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.postgres',
     'taggit',
     'embed_video',
+    'emailletter.apps.EmailletterConfig',
 ]
 
 MIDDLEWARE = [
@@ -96,6 +97,7 @@ TEMPLATES = [
                 'news.views.most_popular_post',
                 'news.views.get_latest_posts',
                 'news.views.trending_news',
+                'emailletter.views.subscribe_email',
             ],
         },
     },
@@ -122,6 +124,7 @@ DATABASES = {
 
 
 
+
 """
 DATABASES = {
     'default': {
@@ -133,7 +136,10 @@ DATABASES = {
         'PORT': config('PGPORT', default='5432'),
     }
 }
+
 """
+
+
 
 AUTHENTICATION_BACKENDS = [
     'users.authentication.EmailOrPhoneNumber',  # Replace with the actual path to your backend
@@ -207,6 +213,8 @@ CLOUDINARY_STORAGE = {
     'API_SECRET': config('API_SECRET')
     
 }
+
+
 
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
@@ -298,3 +306,15 @@ MESSAGE_TAGS = {
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
 }
+
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
+EMAIL_HOST_USER = 'edehchetachukwu23@gmail.com'
+EMAIL_HOST_PASSWORD = 'qvpr bstz gamg usnr'
+
+
