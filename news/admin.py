@@ -20,5 +20,6 @@ class AuthorAdmin(admin.ModelAdmin):
 class PostAdmin(admin.ModelAdmin):
     list_display =  ['category','name', 'slug', 'author', 'active','views','publish','active', 'created']  
     list_filter =  ['category', 'name', 'slug', 'author', 'active', 'views','publish','active', 'created'] 
+    prepopulated_fields = {'name': ('slug',)}
     list_per_page = 10 
         
