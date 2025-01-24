@@ -153,13 +153,62 @@ def post_categories(request, slug):
     
     
     
+    
+def get_pagination_range(current_page, total_pages, delta=2):
+    """
+    Generate a pagination range with ellipses:
+    - `current_page`: The currently active page.
+    - `total_pages`: Total number of pages.
+    - `delta`: Number of pages to show around the current page.
+    """
+    if total_pages <= 7:
+        return list(range(1, total_pages + 1))
+
+    pages = []
+
+    # Always show the first page
+    pages.append(1)
+
+    # Add ellipsis if there’s a gap between the first pages and the current page range
+    if current_page > delta + 2:
+        pages.append("...")
+
+    # Add pages around the current page
+    start = max(2, current_page - delta)
+    end = min(total_pages - 1, current_page + delta)
+    pages.extend(range(start, end + 1))
+
+    # Add ellipsis if there’s a gap between the current page range and the last pages
+    if current_page < total_pages - delta - 1:
+        pages.append("...")
+
+    # Always show the last page
+    pages.append(total_pages)
+
+    return pages
+
+
 def authors_post(request, username):
     author = get_object_or_404(Author, user__username=username)
     post_list = Post.objects.filter(author=author, active=True).order_by('-publish')
     paginator = Paginator(post_list, 5)
     page_number = request.GET.get('page', 1)
     page_obj = paginator.get_page(page_number)
-    return render(request, 'post/authors.html', {'page_obj': page_obj, 'author': author })    
+
+    # Use the custom pagination range
+    pagination_range = get_pagination_range(page_obj.number, paginator.num_pages)
+
+    return render(
+        request,
+        'post/authors.html',
+        {
+            'page_obj': page_obj,
+            'author': author,
+            'pagination_range': pagination_range,
+        },
+    )
+    
+    
 
 
 

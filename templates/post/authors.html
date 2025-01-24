@@ -49,21 +49,26 @@
             <div class="text-start py-4">
               <div class="custom-pagination">
                 {% if page_obj.has_previous %}
-                <a href="?page={{ page_obj.previous_page_number}}" class="prev">Prevous</a>
+                <a href="?page={{ page_obj.previous_page_number }}" class="prev">Previous</a>
                 {% endif %}
-                {% for num in page_obj.paginator.page_range %}
-                {% if page_obj.number == num %}
-                <a href="#" class="active">{{ num }}</a>
-                {% else %}
-                <a href="?page={{ num }}">{{ num }}</a>
-                {% endif %}
+            
+                {% for num in pagination_range %}
+                  {% if num == '...' %}
+                    <span>...</span>
+                  {% elif page_obj.number == num %}
+                    <a href="#" class="active">{{ num }}</a>
+                  {% else %}
+                    <a href="?page={{ num }}">{{ num }}</a>
+                  {% endif %}
                 {% endfor %}
+            
                 {% if page_obj.has_next %}
                 <a href="?page={{ page_obj.next_page_number }}" class="next">Next</a>
                 <a href="?page={{ page_obj.paginator.num_pages }}" class="next">Last</a>
                 {% endif %}
               </div>
             </div>
+            
           </div>
 
           <div class="col-md-3">
