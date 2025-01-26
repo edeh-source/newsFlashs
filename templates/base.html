@@ -59,6 +59,57 @@
     color: #ffffff; /* Ensure all h2 and p elements have white text */
 }
 
+pre {
+  overflow-x: auto;
+  background-color: black;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  background-color: black;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.ckeditor-content table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.ckeditor-content table td, 
+.ckeditor-content table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.ckeditor-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.ckeditor-content table, 
+.ckeditor-content table td, 
+.ckeditor-content table th {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+.ckeditor-content table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
 </style>
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -279,6 +330,7 @@
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
   <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
@@ -295,6 +347,28 @@
             hljs.highlightBlock(block);
         });
     });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((block) => {
+        const button = document.createElement('button');
+        button.innerText = 'Copy';
+        button.classList.add('copy-button');
+        block.parentNode.insertBefore(button, block);
+
+        button.addEventListener('click', () => {
+            const code = block.innerText;
+            navigator.clipboard.writeText(code).then(() => {
+                button.innerText = 'Copied!';
+                setTimeout(() => {
+                    button.innerText = 'Copy';
+                }, 2000);
+            }, (err) => {
+                console.error('Failed to copy: ', err);
+            });
+        });
+    });
+});
 </script>
 </body>
 
